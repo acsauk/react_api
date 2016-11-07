@@ -1,6 +1,6 @@
 ## Objectives of project
 
-Design a simple Customer Service UI that will help Monzo customer service team to solve customer queries as quickly as possible.
+Design a simple Customer Service UI that will help a customer service team to solve customer queries as quickly as possible.
 
 My MVP was to allow anyone using the app to be able to quickly and easily see transactions a user has made, either in their entirety or during a specific date range, along with automating some of the security questions that customers are usually met with when contacting customer service departments.
 
@@ -35,7 +35,7 @@ Open your browser and navigate to `localhost:8080` and the app will be ready to 
 
 ### Load customer info from API (Account Details dropdown)
 
-This sends an AJAX request to the server to pull down the customer's info. While the location is hardcoded to the example profile for the test this coud be easily updated for real life use by implementing a search function to search by account or user number.
+This sends an AJAX request to the server to pull down the customer's info. While the location is hardcoded to the example profile for the test this could be easily updated for real life use by implementing a search function to search by account or user number.
 
 ### Load customer transactions from API (Account Details dropdown)
 
@@ -43,7 +43,7 @@ As with customer info, this sends an API request to the server to retrieve the c
 
 ### Filter transaction dates
 
-By entering a specific datrange in the date input fields you can filter down the transactions shown in the right panel.
+By entering a specific date range in the date input fields you can filter down the transactions shown in the right panel.
 
 ### Security Questions
 
