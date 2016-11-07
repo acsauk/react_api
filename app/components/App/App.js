@@ -26,7 +26,7 @@ var App = React.createClass({
     $.ajax({
       type: "GET",
       dataType: 'json',
-      url: "https://api.s101.nonprod-ffs.io/ops-engineer/list",
+      url: "https://crossorigin.me/https://acsauk-api.000webhostapp.com/list.json",
       success: function(response){
         this.saveAPIToState(response);
       }.bind(this)

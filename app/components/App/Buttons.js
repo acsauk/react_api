@@ -24,11 +24,11 @@ var Buttons = React.createClass({
   },
 
   loadCustomerDetails: function(){
-    this.props.getAPIData("https://api.s101.nonprod-ffs.io/ops-engineer/profile")
+    this.props.getAPIData("https://crossorigin.me/https://acsauk-api.000webhostapp.com/profile.json")
   },
 
   loadTransactionDetails: function(){
-    this.props.getAPIData("https://api.s101.nonprod-ffs.io/ops-engineer/list")
+    this.props.getAPIData("https://crossorigin.me/https://acsauk-api.000webhostapp.com/list.json")
   }
 
 });
